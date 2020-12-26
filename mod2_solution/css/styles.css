@@ -1,4 +1,4 @@
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -15,32 +15,33 @@ h1{
 }
 body{
 	position: relative;
-	top: 40px;
-	margin: 10px;
+	top: 60px;
+	margin: 15px;
 }
 .box{
 	position: relative;
+	top: 0;
+	background: gray;
     margin: 10px;
     padding: 15px;
     border: 2px solid;
-    background: gray;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 p {
-	margin-top: 25px;
-	font-size: 100%;
-	text-align: justify;
+	margin-top: 30px;
+  text-align: justify;
+  font-size:100%;
 }
 
 h3{
 	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 3px 20px;
-	border-bottom: 2px solid;
-	border-left: 2px solid;
-	text-align: center;
+  top:0;
+  right: 0px;
+  background: green; 
+  padding: 6px 40px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
 	overflow: hidden;
 }
 
@@ -98,7 +99,7 @@ h3{
 
 @media (min-width: 768px) and (max-width: 991px){
   .col-md-2 {
-    width: 50%;
+    width: 45%;
     float: left;
   }
   .col-md-1 {
